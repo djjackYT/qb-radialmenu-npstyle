@@ -129,16 +129,24 @@ end
 local function SetupRadialMenu()
     FinalMenuItems = {}
     if (IsDowned() and IsPoliceOrEMS()) then
-            FinalMenuItems = {
-                [1] = {
-                    id = 'emergencybutton2',
-                    title = Lang:t("options.emergency_button"),
-                    icon = 'exclamation-circle',
-                    type = 'client',
-                    event = 'police:client:SendPoliceEmergencyAlert',
-                    shouldClose = true,
-                },
-            }
+        FinalMenuItems = {
+            [1] = {
+                id = 'emergencybutton1',
+                title = '10-13A',
+                icon = 'sad-tear',
+                type = 'client',
+                event = 'police:client:SendPoliceEmergencyAlert', -- replace with your event
+                shouldClose = true,
+            },
+            [2] = {
+                id = 'emergencybutton2',
+                title = '10-13B',
+                icon = 'sad-cry',
+                type = 'client',
+                event = 'police:client:SendPoliceEmergencyAlert', -- replace with your event
+                shouldClose = true,
+            },
+        }
     else
         SetupSubItems()
         FinalMenuItems = deepcopy(Config.MenuItems)
