@@ -1,17 +1,21 @@
 # qb-radialmenu
-NoPixel Inpired radial menu with css changes and changes to the menu's events/configuration.
+Simple edits of qb-radialmenu to look like nopixels radialmenu. Most of it is just edits but there is some addons to the radialmenu to. Enjoy!
 
 # Dependencies
-qb-core (https://github.com/qbcore-framework/qb-core)
+qb-core: https://github.com/qbcore-framework/qb-core
 
-veh-control (https://github.com/Manvaril/vehcontrol)
+veh-control: https://github.com/Manvaril/vehcontrol
 
 # Preview
-https://medal.tv/games/gta-v/clips/nNNM16zG4tF3_/d1337SFErMFM?invite=cr-MSxUQnAsNDIxNDM3MTcs
+https://streamable.com/3xbdxt
+![image](https://user-images.githubusercontent.com/108560629/179027979-53b7a925-159e-4dc7-a3f1-49cd05fed857.png)
+
 
 # Credits
 
 https://github.com/KevinGirardx/qb-radialmenu
+
+https://github.com/TonyCapon3/qb-radialmenu
 
 # License
 
