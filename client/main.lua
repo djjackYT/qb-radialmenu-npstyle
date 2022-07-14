@@ -135,7 +135,7 @@ local function SetupRadialMenu()
                 title = '10-13A',
                 icon = 'sad-tear',
                 type = 'client',
-                event = 'police:client:SendPoliceEmergencyAlert', -- replace with your event
+                event = 'ps-dispatch:client:officerdown',
                 shouldClose = true,
             },
             [2] = {
@@ -143,7 +143,7 @@ local function SetupRadialMenu()
                 title = '10-13B',
                 icon = 'sad-cry',
                 type = 'client',
-                event = 'police:client:SendPoliceEmergencyAlert', -- replace with your event
+                event = 'ps-dispatch:client:officerdown',
                 shouldClose = true,
             },
         }
