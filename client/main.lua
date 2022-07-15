@@ -9,6 +9,25 @@ local DynamicMenuItems = {}
 local FinalMenuItems = {}
 -- Functions
 
+local function mdt()
+    if QBCore.Functions.GetPlayerData().job.name == "police" then
+        mdtid = exports['qb-radialmenu']:AddOption({
+            id = 'mdt',
+            title = 'Mdt',
+            icon = 'tablet',
+            type = 'command',
+            event = 'mdt',
+            shouldClose = true
+        }, mdtid)
+    else
+        if mdtid ~= nil then
+            exports['qb-radialmenu']:RemoveOption(mdtid)
+            mdtid = nil
+        end
+    end
+end
+
+
 local function deepcopy(orig) -- modified the deep copy function from http://lua-users.org/wiki/CopyTable
     local orig_type = type(orig)
     local copy
@@ -153,7 +172,6 @@ local function SetupRadialMenu()
         for _, v in pairs(DynamicMenuItems) do
             FinalMenuItems[#FinalMenuItems+1] = v
         end
-
     end
 end
 

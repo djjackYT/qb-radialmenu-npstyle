@@ -846,8 +846,8 @@ function ToggleClothing(whic, extra)
 					LastEquipped[which] = Cur
 					SetPedComponentVariation(Ped, Toggle.Drawable, Table, 0, 0)
 					if Toggle.Table.Extra then
-						Extras = Toggle.Table.Extra
-						for _, v in pairs(Extras) do
+						local extraToggled = Toggle.Table.Extra
+						for _, v in pairs(extraToggled) do
 							local ExtraCur = {Drawable = GetPedDrawableVariation(Ped, v.Drawable),  Texture = GetPedTextureVariation(Ped, v.Drawable), Id = v.Drawable}
 							SetPedComponentVariation(Ped, v.Drawable, v.Id, v.Tex, 0)
 							LastEquipped[v.Name] = ExtraCur
@@ -862,8 +862,8 @@ function ToggleClothing(whic, extra)
 				SetPedComponentVariation(Ped, Toggle.Drawable, Last.Drawable, Last.Texture, 0)
 				LastEquipped[which] = false
 				if Toggle.Table.Extra then
-					Extras = Toggle.Table.Extra
-					for _, v in pairs(Extras) do
+					local extraToggled = Toggle.Table.Extra
+					for _, v in pairs(extraToggled) do
 						if LastEquipped[v.Name] then
 							Last = LastEquipped[v.Name]
 							SetPedComponentVariation(Ped, Last.Id, Last.Drawable, Last.Texture, 0)
