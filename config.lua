@@ -718,13 +718,12 @@ Config.MenuItems = {
                 event = 'qb-phone:client:GiveContactDetails',
                 shouldClose = true
             },{
-                
-                id = 'givekey',
+                id = 'givekeys',
                 title = 'Give Vehicle Keys',
                 icon = 'key',
-                type = 'client',
-                event = 'qb-vehiclekeys:client:GiveKeys',
-                shouldClose = true                
+                type = 'command',
+                event = 'givekeys',
+                shouldClose = true                 
             },{
                 id = 'getintrunk',
                 title = 'Get In Trunk',
