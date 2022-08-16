@@ -18,6 +18,11 @@ https://github.com/KevinGirardx/qb-radialmenu
 
 https://github.com/TonyCapon3/qb-radialmenu
 
+# To-Do
+-- Edit walking styles icons to match Nopixels
+
+-- Add Expressions similar to nopixels
+
 # License
 
     QBCore Framework
