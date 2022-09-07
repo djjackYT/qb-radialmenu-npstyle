@@ -11,6 +11,12 @@ https://streamable.com/3xbdxt
 
 ![image](https://user-images.githubusercontent.com/108560629/179027979-53b7a925-159e-4dc7-a3f1-49cd05fed857.png)
 
+# Installation
+```Step 1```
+- Rename ```qb-radialmenu-npstyle``` to > ```qb-radialmenu```
+
+```Step 2```
+- Drop folder into the ```[qb]``` folder
 
 # Credits
 
