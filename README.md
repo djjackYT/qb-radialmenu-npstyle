@@ -1,4 +1,4 @@
-# qb-radialmenu
+# qb-radialmenu A LOT OF CHANGES COMING SOON!!
 Simple edits of qb-radialmenu to look like nopixels radialmenu. Most of it is just edits but there is some addons to the radialmenu to. Enjoy!
 
 # Dependencies
