@@ -25,9 +25,11 @@ https://github.com/KevinGirardx/qb-radialmenu
 https://github.com/TonyCapon3/qb-radialmenu
 
 # To-Do
--- Edit walking styles icons to match Nopixels | Working On
+-- Edit walking styles icons to match Nopixels | DONE
 
--- Add Expressions similar to nopixels
+-- Edit looks for radialmenu | DONE
+
+-- Add Expressions
 
 # License
 
