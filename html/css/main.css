@@ -41,6 +41,7 @@ div.menuHolder {
 
 svg.icons {
     display: none;
+    filter:url(#drop-shadow);
 }
 
 svg.menu {
@@ -51,7 +52,7 @@ svg.menu {
 }
 
 svg.menu.inner {
-    transform: scale(0.99) rotate(-10deg);
+    transform: scale(1.0) rotate(-10deg);
     opacity: 0;
     visibility: hidden;
 }
@@ -63,7 +64,7 @@ svg.menu.outer {
 
 svg.menu > g > path {
     fill: #00000080;
-    transition: 0.1s;
+    transition: 0.3s;
 }
 
 svg.menu > g.sector > path {
@@ -73,9 +74,9 @@ svg.menu > g.sector > path {
 svg.menu > g.sector > text,
 svg.menu > g.sector > use {
     font-family: 'Roboto';
-    font-weight: 500;
+    font-weight: 520px;
     margin-top: 10px;
-    font-size: 3px;
+    font-size: 3.6px;
     text-transform: uppercase;
     cursor: pointer;
     fill: white;

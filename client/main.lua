@@ -154,7 +154,7 @@ local function SetupRadialMenu()
                 title = '10-13A',
                 icon = 'sad-tear',
                 type = 'client',
-                event = 'ps-dispatch:client:officerdown',
+                event = 'ps-dispatch:client:officerdown1',
                 shouldClose = true,
             },
             [2] = {
@@ -162,7 +162,7 @@ local function SetupRadialMenu()
                 title = '10-13B',
                 icon = 'sad-cry',
                 type = 'client',
-                event = 'ps-dispatch:client:officerdown',
+                event = 'ps-dispatch:client:officerdown2',
                 shouldClose = true,
             },
         }
@@ -181,8 +181,10 @@ local function setRadialState(bool, sendMessage, delay)
     if bool then
         TriggerEvent('qb-radialmenu:client:onRadialmenuOpen')
         SetupRadialMenu()
+        PlaySoundFrontend(-1, "NAV", "HUD_AMMO_SHOP_SOUNDSET", 1)
     else
         TriggerEvent('qb-radialmenu:client:onRadialmenuClose')
+        PlaySoundFrontend(-1, "NAV", "HUD_AMMO_SHOP_SOUNDSET", 1)
     end
 
     SetNuiFocus(bool, bool)

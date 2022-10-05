@@ -15,7 +15,7 @@ Config.MenuItems = {
     },
     [2] = {
         id = 'blips',
-        title = 'Blips',
+        title = 'GPS',
         icon = 'map-marked-alt',
         items = {
             {
@@ -121,49 +121,49 @@ Config.MenuItems = {
             {
                 id = 'alien',
                 title = 'Alien',
-                icon = 'walking',
+                icon = 'reddit-alien',
                 type = 'command',
                 event = 'walk Alien',
                 shouldClose = true
             }, {
                 id = 'armored',
                 title = 'Armored',
-                icon = 'walking',
+                icon = 'shield-halved',
                 type = 'command',
                 event = 'walk Armored',
                 shouldClose = true
             }, {
                 id = 'arrogant',
                 title = 'Arrogant',
-                icon = 'walking',
+                icon = 'meh-rolling-eyes',
                 type = 'command',
                 event = 'walk Arrogant',
                 shouldClose = true
             }, {
                 id = 'brave',
                 title = 'Brave',
-                icon = 'walking',
+                icon = 'dumbbell',
                 type = 'command',
                 event = 'walk Brave',
                 shouldClose = true
             }, {
                 id = 'casual',
                 title = 'Casual',
-                icon = 'walking',
+                icon = 'meh-blank',
                 type = 'command',
                 event = 'walk Casual',
                 shouldClose = true
             }, {
                 id = 'casual2',
                 title = 'Casual 2',
-                icon = 'walking',
+                icon = 'meh-blank',
                 type = 'command',
                 event = 'walk Casual2',
                 shouldClose = true
             }, {
                 id = 'casual3',
                 title = 'Casual 3',
-                icon = 'walking',
+                icon = 'meh-blank',
                 type = 'command',
                 event = 'walk Casual3',
                 shouldClose = true
@@ -175,49 +175,49 @@ Config.MenuItems = {
                     {
                         id = 'casual4',
                         title = 'Casual 4',
-                        icon = 'walking',
+                        icon = 'meh-blank',
                         type = 'command',
                         event = 'walk Casual4',
                         shouldClose = true
                     }, {
                         id = 'casual5',
                         title = 'Casual 5',
-                        icon = 'walking',
+                        icon = 'meh-blank',
                         type = 'command',
                         event = 'walk Casual5',
                         shouldClose = true
                     }, {
                         id = 'casual6',
                         title = 'Casual 6',
-                        icon = 'walking',
+                        icon = 'meh-blank',
                         type = 'command',
                         event = 'walk Casual6',
                         shouldClose = true
                     }, {
                         id = 'chichi',
                         title = 'Chichi',
-                        icon = 'walking',
+                        icon = 'yin-yang',
                         type = 'command',
                         event = 'walk Chichi',
                         shouldClose = true
                     }, {
                         id = 'confident',
                         title = 'Confident',
-                        icon = 'walking',
+                        icon = 'grin-wink',
                         type = 'command',
                         event = 'walk Confident',
                         shouldClose = true
                     }, {
                         id = 'cop',
-                        title = 'Cop',
-                        icon = 'walking',
+                        title = 'Buisness',
+                        icon = 'briefcase',
                         type = 'command',
                         event = 'walk Cop',
                         shouldClose = true
                     }, {
                         id = 'cop2',
-                        title = 'Cop 2',
-                        icon = 'walking',
+                        title = 'Buisness 2',
+                        icon = 'briefcase',
                         type = 'command',
                         event = 'walk Cop2',
                         shouldClose = true
@@ -228,50 +228,50 @@ Config.MenuItems = {
                         items = {
                             {
                                 id = 'cop2',
-                                title = 'Cop 3',
-                                icon = 'walking',
+                                title = 'Buisness 3',
+                                icon = 'briefcase',
                                 type = 'command',
                                 event = 'walk Cop3',
                                 shouldClose = true
                             }, {
                                 id = 'drunk',
                                 title = 'Drunk',
-                                icon = 'walking',
+                                icon = 'wine-glass-crack',
                                 type = 'command',
                                 event = 'walk Drunk',
                                 shouldClose = true
                             }, {
                                 id = 'drunk1',
                                 title = 'Drunk 1',
-                                icon = 'walking',
+                                icon = 'wine-glass-crack',
                                 type = 'command',
                                 event = 'walk Drunk1',
                                 shouldClose = true
                             }, {
                                 id = 'drunk2',
                                 title = 'Drunk 2',
-                                icon = 'walking',
+                                icon = 'wine-glass-crack',
                                 type = 'command',
                                 event = 'walk Drunk2',
                                 shouldClose = true
                             }, {
                                 id = 'drunk3',
                                 title = 'Drunk 3',
-                                icon = 'walking',
+                                icon = 'wine-glass-crack',
                                 type = 'command',
                                 event = 'walk Drunk3',
                                 shouldClose = true
                             }, {
                                 id = 'femme',
                                 title = 'Femme',
-                                icon = 'walking',
+                                icon = 'female',
                                 type = 'command',
                                 event = 'walk Femme',
                                 shouldClose = true
                             }, {
                                 id = 'fire',
                                 title = 'Fire',
-                                icon = 'walking',
+                                icon = 'fire',
                                 type = 'command',
                                 event = 'walk Fire',
                                 shouldClose = true
@@ -283,16 +283,9 @@ Config.MenuItems = {
                                     {
                                         id = 'fire3',
                                         title = 'Fire 3',
-                                        icon = 'walking',
+                                        icon = 'fire',
                                         type = 'command',
                                         event = 'walk Fire3',
-                                        shouldClose = true
-                                    }, {
-                                        id = 'flee',
-                                        title = 'Flee',
-                                        icon = 'walking',
-                                        type = 'command',
-                                        event = 'walk Flee',
                                         shouldClose = true
                                     }, {
                                         id = 'franklin',
@@ -304,28 +297,21 @@ Config.MenuItems = {
                                     }, {
                                         id = 'gangster',
                                         title = 'Gangster',
-                                        icon = 'walking',
+                                        icon = 'dollar-sign',
                                         type = 'command',
                                         event = 'walk Gangster',
                                         shouldClose = true
                                     }, {
-                                        id = 'drunk3',
-                                        title = 'Drunk 3',
-                                        icon = 'walking',
-                                        type = 'command',
-                                        event = 'walk Gangster2',
-                                        shouldClose = true
-                                    }, {
                                         id = 'femme',
                                         title = 'Femme',
-                                        icon = 'walking',
+                                        icon = 'female',
                                         type = 'command',
                                         event = 'walk Gangster2',
                                         shouldClose = true
                                     }, {
                                         id = 'gangster3',
                                         title = 'Gangster 3',
-                                        icon = 'walking',
+                                        icon = 'dollar-sign',
                                         type = 'command',
                                         event = 'walk Gangster3',
                                         shouldClose = true
@@ -337,49 +323,49 @@ Config.MenuItems = {
                                             {
                                                 id = 'gangster4',
                                                 title = 'Gangster 4',
-                                                icon = 'walking',
+                                                icon = 'dollar-sign',
                                                 type = 'command',
                                                 event = 'walk Gangster4',
                                                 shouldClose = true
                                             }, {
                                                 id = 'gangster5',
                                                 title = 'Gangster 5',
-                                                icon = 'walking',
+                                                icon = 'dollar-sign',
                                                 type = 'command',
                                                 event = 'walk Gangster5',
                                                 shouldClose = true
                                             }, {
                                                 id = 'grooving',
                                                 title = 'Grooving',
-                                                icon = 'walking',
+                                                icon = 'headphones',
                                                 type = 'command',
                                                 event = 'walk Grooving',
                                                 shouldClose = true
                                             }, {
                                                 id = 'guard',
                                                 title = 'Guard',
-                                                icon = 'walking',
+                                                icon = 'shield-halved',
                                                 type = 'command',
                                                 event = 'walk Guard',
                                                 shouldClose = true
                                             }, {
                                                 id = 'handcuffs',
                                                 title = 'Handcuffs',
-                                                icon = 'walking',
+                                                icon = 'hand',
                                                 type = 'command',
                                                 event = 'walk Handcuffs',
                                                 shouldClose = true
                                             }, {
                                                 id = 'heels',
                                                 title = 'Heels',
-                                                icon = 'walking',
+                                                icon = 'female',
                                                 type = 'command',
                                                 event = 'walk Heels',
                                                 shouldClose = true
                                             }, {
                                                 id = 'heels2',
                                                 title = 'Heels 2',
-                                                icon = 'walking',
+                                                icon = 'female',
                                                 type = 'command',
                                                 event = 'walk Heels2',
                                                 shouldClose = true
@@ -391,42 +377,42 @@ Config.MenuItems = {
                                                     {
                                                         id = 'hiking',
                                                         title = 'Hiking',
-                                                        icon = 'walking',
+                                                        icon = 'hiking',
                                                         type = 'command',
                                                         event = 'walk Hiking',
                                                         shouldClose = true
                                                     }, {
                                                         id = 'hobo',
                                                         title = 'Hobo',
-                                                        icon = 'walking',
+                                                        icon = 'dumpster',
                                                         type = 'command',
                                                         event = 'walk Hobo',
                                                         shouldClose = true
                                                     }, {
                                                         id = 'hurry',
-                                                        title = 'Hurry',
-                                                        icon = 'walking',
+                                                        title = 'Quick',
+                                                        icon = 'running',
                                                         type = 'command',
                                                         event = 'walk Hurry',
                                                         shouldClose = true
                                                     }, {
                                                         id = 'janitor',
                                                         title = 'Janitor',
-                                                        icon = 'walking',
+                                                        icon = 'broom',
                                                         type = 'command',
                                                         event = 'walk Janitor',
                                                         shouldClose = true
                                                     }, {
                                                         id = 'janitor2',
                                                         title = 'Janitor 2',
-                                                        icon = 'walking',
+                                                        icon = 'broom',
                                                         type = 'command',
                                                         event = 'walk Janitor2',
                                                         shouldClose = true
                                                     }, {
                                                         id = 'jog',
                                                         title = 'Jog',
-                                                        icon = 'walking',
+                                                        icon = 'running',
                                                         type = 'command',
                                                         event = 'walk Jog',
                                                         shouldClose = true
@@ -445,21 +431,21 @@ Config.MenuItems = {
                                                             {
                                                                 id = 'lester',
                                                                 title = 'Lester',
-                                                                icon = 'walking',
+                                                                icon = 'person-cane',
                                                                 type = 'command',
                                                                 event = 'walk Lester',
                                                                 shouldClose = true
                                                             }, {
                                                                 id = 'lester2',
                                                                 title = 'Lester 2',
-                                                                icon = 'walking',
+                                                                icon = 'person-cane',
                                                                 type = 'command',
                                                                 event = 'walk Lester2',
                                                                 shouldClose = true
                                                             }, {
                                                                 id = 'maneater',
                                                                 title = 'Maneater',
-                                                                icon = 'walking',
+                                                                icon = 'grin-tongue-wink',
                                                                 type = 'command',
                                                                 event = 'walk Maneater',
                                                                 shouldClose = true
@@ -473,28 +459,28 @@ Config.MenuItems = {
                                                             }, {
                                                                 id = 'money',
                                                                 title = 'Money',
-                                                                icon = 'walking',
+                                                                icon = 'dollar-sign',
                                                                 type = 'command',
                                                                 event = 'walk Money',
                                                                 shouldClose = true
                                                             }, {
                                                                 id = 'muscle',
                                                                 title = 'Muscle',
-                                                                icon = 'walking',
+                                                                icon = 'dumbbell',
                                                                 type = 'command',
                                                                 event = 'walk Muscle',
                                                                 shouldClose = true
                                                             }, {
                                                                 id = 'posh',
                                                                 title = 'Posh',
-                                                                icon = 'walking',
+                                                                icon = 'crown',
                                                                 type = 'command',
                                                                 event = 'walk Posh',
                                                                 shouldClose = true
                                                             }, {
                                                                 id = 'wide',
                                                                 title = 'Wide',
-                                                                icon = 'walking',
+                                                                icon = 'arrows-alt-h',
                                                                 type = 'command',
                                                                 event = 'walk Wide',
                                                                 shouldClose = true
@@ -506,7 +492,7 @@ Config.MenuItems = {
                                                                     {
                                                                         id = 'posh2',
                                                                         title = 'Posh 2',
-                                                                        icon = 'walking',
+                                                                        icon = 'crown',
                                                                         type = 'command',
                                                                         event = 'walk Posh2',
                                                                         shouldClose = true
@@ -514,41 +500,41 @@ Config.MenuItems = {
                                                                         id = 'quick',
                                                                         title = 'Quick',
                                                                         icon = 'walking',
-                                                                        type = 'command',
+                                                                        type = 'running',
                                                                         event = 'walk Quick',
                                                                         shouldClose = true
                                                                     }, {
                                                                         id = 'runner',
                                                                         title = 'Runner',
-                                                                        icon = 'walking',
+                                                                        icon = 'running',
                                                                         type = 'command',
                                                                         event = 'walk Runner',
                                                                         shouldClose = true
                                                                     }, {
                                                                         id = 'sad',
                                                                         title = 'Sad',
-                                                                        icon = 'walking',
+                                                                        icon = 'sad-tear',
                                                                         type = 'command',
                                                                         event = 'walk Sad',
                                                                         shouldClose = true
                                                                     }, {
                                                                         id = 'sassy',
                                                                         title = 'Sassy',
-                                                                        icon = 'walking',
+                                                                        icon = 'kiss',
                                                                         type = 'command',
                                                                         event = 'walk Sassy',
                                                                         shouldClose = true
                                                                     }, {
                                                                         id = 'sassy2',
                                                                         title = 'Sassy 2',
-                                                                        icon = 'walking',
+                                                                        icon = 'kiss',
                                                                         type = 'command',
                                                                         event = 'walk Sassy2',
                                                                         shouldClose = true
                                                                     }, {
                                                                         id = 'scared',
                                                                         title = 'Scared',
-                                                                        icon = 'walking',
+                                                                        icon = 'grimace',
                                                                         type = 'command',
                                                                         event = 'walk Scared',
                                                                         shouldClose = true
@@ -567,14 +553,14 @@ Config.MenuItems = {
                                                                             {
                                                                                 id = 'sexy',
                                                                                 title = 'Sexy',
-                                                                                icon = 'walking',
+                                                                                icon = 'kiss',
                                                                                 type = 'command',
                                                                                 event = 'walk Sexy',
                                                                                 shouldClose = true
                                                                             }, {
                                                                                 id = 'shady',
                                                                                 title = 'Shady',
-                                                                                icon = 'walking',
+                                                                                icon = 'user-ninja',
                                                                                 type = 'command',
                                                                                 event = 'walk Shady',
                                                                                 shouldClose = true
@@ -588,35 +574,35 @@ Config.MenuItems = {
                                                                             }, {
                                                                                 id = 'swagger',
                                                                                 title = 'Swagger',
-                                                                                icon = 'walking',
+                                                                                icon = 'blind',
                                                                                 type = 'command',
                                                                                 event = 'walk Swagger',
                                                                                 shouldClose = true
                                                                             }, {
                                                                                 id = 'tough',
                                                                                 title = 'Tough',
-                                                                                icon = 'walking',
+                                                                                icon = 'dumbbell',
                                                                                 type = 'command',
                                                                                 event = 'walk Tough',
                                                                                 shouldClose = true
                                                                             }, {
                                                                                 id = 'tough2',
                                                                                 title = 'Tough 2',
-                                                                                icon = 'walking',
+                                                                                icon = 'dumbbell',
                                                                                 type = 'command',
                                                                                 event = 'walk Tough2',
                                                                                 shouldClose = true
                                                                             }, {
                                                                                 id = 'trash',
                                                                                 title = 'Trash',
-                                                                                icon = 'walking',
+                                                                                icon = 'dumpster',
                                                                                 type = 'command',
                                                                                 event = 'walk Trash',
                                                                                 shouldClose = true
                                                                             }, {
                                                                                 id = 'trash2',
                                                                                 title = 'Trash 2',
-                                                                                icon = 'walking',
+                                                                                icon = 'dumpster',
                                                                                 type = 'command',
                                                                                 event = 'walk Trash2',
                                                                                 shouldClose = true
@@ -640,357 +626,238 @@ Config.MenuItems = {
         }
     },
     [5] = {
-        id = 'house',
-        title = 'House Interaction',
-        icon = 'home',
-        items = {
-            {
-                id = 'givehousekey',
-                title = 'Give House Keys',
-                icon = 'key',
-                type = 'client',
-                event = 'qb-houses:client:giveHouseKey',
-                shouldClose = true,
-                items = {}
-            }, {
-                id = 'removehousekey',
-                title = 'Remove House Keys',
-                icon = 'key',
-                type = 'client',
-                event = 'qb-houses:client:removeHouseKey',
-                shouldClose = true,
-                items = {}
-            }, {
-                id = 'togglelock',
-                title = 'Toggle Doorlock',
-                icon = 'door-closed',
-                type = 'client',
-                event = 'qb-houses:client:toggleDoorlock',
-                shouldClose = true
-            }, {
-                id = 'decoratehouse',
-                title = 'Decorate House',
-                icon = 'boxes',
-                type = 'client',
-                event = 'qb-houses:client:decorate',
-                shouldClose = true
-            }, {
-                id = 'houseLocations',
-                title = 'Interaction Locations',
-                icon = 'home',
-                items = {
-                    {
-                        id = 'setstash',
-                        title = 'Set Stash',
-                        icon = 'box-open',
-                        type = 'client',
-                        event = 'qb-houses:client:setLocation',
-                        shouldClose = true
-                    }, {
-                        id = 'setoutift',
-                        title = 'Set Wardrobe',
-                        icon = 'tshirt',
-                        type = 'client',
-                        event = 'qb-houses:client:setLocation',
-                        shouldClose = true
-                    }, {
-                        id = 'setlogout',
-                        title = 'Set Logout',
-                        icon = 'door-open',
-                        type = 'client',
-                        event = 'qb-houses:client:setLocation',
-                        shouldClose = true
-                    }
-                }
-            }
-        }    
-    },    
-    [6] = {
         id = 'general',
         title = 'General',
         icon = 'globe-europe',
         items = {
             {
-                id = 'givenum',
-                title = 'Give Contact Details',
-                icon = 'address-book',
-                type = 'client',
-                event = 'qb-phone:client:GiveContactDetails',
-                shouldClose = true
-            },{
-                id = 'givekeys',
-                title = 'Give Vehicle Keys',
-                icon = 'key',
-                type = 'command',
-                event = 'givekeys',
-                shouldClose = true                 
-            },{
-                id = 'getintrunk',
-                title = 'Get In Trunk',
-                icon = 'car',
-                type = 'client',
-                event = 'qb-trunk:client:GetIn',
-                shouldClose = true
-            },{
+                id = 'house',
+                title = 'House Options',
+                icon = 'home',
+                items = {
+                    {
+                        id = 'givehousekey',
+                        title = 'Give Keys',
+                        icon = 'key',
+                        type = 'client',
+                        event = 'qb-houses:client:giveHouseKey',
+                        shouldClose = true,
+                        items = {}
+                    }, {
+                        id = 'removehousekey',
+                        title = 'Remove Keys',
+                        icon = 'key',
+                        type = 'client',
+                        event = 'qb-houses:client:removeHouseKey',
+                        shouldClose = true,
+                        items = {}
+                    }, {
+                        id = 'togglelock',
+                        title = 'Toggle Doorlock',
+                        icon = 'door-closed',
+                        type = 'client',
+                        event = 'qb-houses:client:toggleDoorlock',
+                        shouldClose = true
+                    }, {
+                        id = 'decoratehouse',
+                        title = 'Decorate',
+                        icon = 'boxes',
+                        type = 'client',
+                        event = 'qb-houses:client:decorate',
+                        shouldClose = true
+                    }, {
+                        id = 'houseLocations',
+                        title = 'Locations',
+                        icon = 'home',
+                        items = {
+                            {
+                                id = 'setstash',
+                                title = 'Set Stash',
+                                icon = 'box-open',
+                                type = 'client',
+                                event = 'qb-houses:client:setLocation',
+                                shouldClose = true
+                            }, {
+                                id = 'setoutift',
+                                title = 'Set Wardrobe',
+                                icon = 'tshirt',
+                                type = 'client',
+                                event = 'qb-houses:client:setLocation',
+                                shouldClose = true
+                            }, {
+                                id = 'setlogout',
+                                title = 'Set Logout',
+                                icon = 'door-open',
+                                type = 'client',
+                                event = 'qb-houses:client:setLocation',
+                                shouldClose = true
+                            }
+                        }
+                    }
+                }
+            }, {
+                id = 'clothesmenu',
+                title = 'Clothing',
+                icon = 'tshirt',
+                items = {
+                    {
+                        id = 'Hair',
+                        title = 'Hair',
+                        icon = 'user',
+                        type = 'client',
+                        event = 'qb-radialmenu:ToggleClothing',
+                        shouldClose = true
+                    }, {
+                        id = 'Ear',
+                        title = 'Ear Piece',
+                        icon = 'deaf',
+                        type = 'client',
+                        event = 'qb-radialmenu:ToggleProps',
+                        shouldClose = true
+                    }, {
+                        id = 'Neck',
+                        title = 'Neck',
+                        icon = 'user-tie',
+                        type = 'client',
+                        event = 'qb-radialmenu:ToggleClothing',
+                        shouldClose = true
+                    }, {
+                        id = 'Top',
+                        title = 'Top',
+                        icon = 'tshirt',
+                        type = 'client',
+                        event = 'qb-radialmenu:ToggleClothing',
+                        shouldClose = true
+                    }, {
+                        id = 'Shirt',
+                        title = 'Shirt',
+                        icon = 'tshirt',
+                        type = 'client',
+                        event = 'qb-radialmenu:ToggleClothing',
+                        shouldClose = true
+                    }, {
+                        id = 'Pants',
+                        title = 'Pants',
+                        icon = 'user',
+                        type = 'client',
+                        event = 'qb-radialmenu:ToggleClothing',
+                        shouldClose = true
+                    }, {
+                        id = 'Shoes',
+                        title = 'Shoes',
+                        icon = 'shoe-prints',
+                        type = 'client',
+                        event = 'qb-radialmenu:ToggleClothing',
+                        shouldClose = true
+                    }, {
+                        id = 'meer',
+                        title = 'Extras',
+                        icon = 'plus',
+                        items = {
+                            {
+                                id = 'Hat',
+                                title = 'Hat',
+                                icon = 'hat-cowboy-side',
+                                type = 'client',
+                                event = 'qb-radialmenu:ToggleProps',
+                                shouldClose = true
+                            }, {
+                                id = 'Glasses',
+                                title = 'Glasses',
+                                icon = 'glasses',
+                                type = 'client',
+                                event = 'qb-radialmenu:ToggleProps',
+                                shouldClose = true
+                            }, {
+                                id = 'Visor',
+                                title = 'Visor',
+                                icon = 'hat-cowboy-side',
+                                type = 'client',
+                                event = 'qb-radialmenu:ToggleProps',
+                                shouldClose = true
+                            }, {
+                                id = 'Mask',
+                                title = 'Mask',
+                                icon = 'theater-masks',
+                                type = 'client',
+                                event = 'qb-radialmenu:ToggleClothing',
+                                shouldClose = true
+                            }, {
+                                id = 'Vest',
+                                title = 'Vest',
+                                icon = 'vest',
+                                type = 'client',
+                                event = 'qb-radialmenu:ToggleClothing',
+                                shouldClose = true
+                            }, {
+                                id = 'Bag',
+                                title = 'Bag',
+                                icon = 'shopping-bag',
+                                type = 'client',
+                                event = 'qb-radialmenu:ToggleClothing',
+                                shouldClose = true
+                            }, {
+                                id = 'Bracelet',
+                                title = 'Bracelet',
+                                icon = 'user',
+                                type = 'client',
+                                event = 'qb-radialmenu:ToggleProps',
+                                shouldClose = true
+                            }, {
+                                id = 'Watch',
+                                title = 'Watch',
+                                icon = 'stopwatch',
+                                type = 'client',
+                                event = 'qb-radialmenu:ToggleProps',
+                                shouldClose = true
+                            }, {
+                                id = 'Gloves',
+                                title = 'Gloves',
+                                icon = 'mitten',
+                                type = 'client',
+                                event = 'qb-radialmenu:ToggleClothing',
+                                shouldClose = true
+                            }
+                        }
+                    }
+                }
+            }, {
                 id = 'cornerselling',
-                title = 'Corner Selling',
+                title = 'Corner Sell',
                 icon = 'cannabis',
                 type = 'client',
                 event = 'qb-drugs:client:cornerselling',
                 shouldClose = true
-            },{
+            }, {
+                id = 'givenum',
+                title = 'Give Contact',
+                icon = 'address-book',
+                type = 'client',
+                event = 'qb-phone:client:GiveContactDetails',
+                shouldClose = true
+            }, {
                 id = 'togglehotdogsell',
                 title = 'Hotdog Selling',
                 icon = 'hotdog',
                 type = 'client',
                 event = 'qb-hotdogjob:client:ToggleSell',
                 shouldClose = true
-            },{
-                
-                    id = 'clothesmenu',
-                    title = 'Clothing',
-                    icon = 'tshirt',
-                    items = {
-                        {
-                            id = 'Hair',
-                            title = 'Hair',
-                            icon = 'user',
-                            type = 'client',
-                            event = 'qb-radialmenu:ToggleClothing',
-                            shouldClose = true
-                        }, {
-                            id = 'Ear',
-                            title = 'Ear Piece',
-                            icon = 'deaf',
-                            type = 'client',
-                            event = 'qb-radialmenu:ToggleProps',
-                            shouldClose = true
-                        }, {
-                            id = 'Neck',
-                            title = 'Neck',
-                            icon = 'user-tie',
-                            type = 'client',
-                            event = 'qb-radialmenu:ToggleClothing',
-                            shouldClose = true
-                        }, {
-                            id = 'Top',
-                            title = 'Top',
-                            icon = 'tshirt',
-                            type = 'client',
-                            event = 'qb-radialmenu:ToggleClothing',
-                            shouldClose = true
-                        }, {
-                            id = 'Shirt',
-                            title = 'Shirt',
-                            icon = 'tshirt',
-                            type = 'client',
-                            event = 'qb-radialmenu:ToggleClothing',
-                            shouldClose = true
-                        }, {
-                            id = 'Pants',
-                            title = 'Pants',
-                            icon = 'user',
-                            type = 'client',
-                            event = 'qb-radialmenu:ToggleClothing',
-                            shouldClose = true
-                        }, {
-                            id = 'Shoes',
-                            title = 'Shoes',
-                            icon = 'shoe-prints',
-                            type = 'client',
-                            event = 'qb-radialmenu:ToggleClothing',
-                            shouldClose = true
-                        }, {
-                            id = 'meer',
-                            title = 'Extras',
-                            icon = 'plus',
-                            items = {
-                                {
-                                    id = 'Hat',
-                                    title = 'Hat',
-                                    icon = 'hat-cowboy-side',
-                                    type = 'client',
-                                    event = 'qb-radialmenu:ToggleProps',
-                                    shouldClose = true
-                                }, {
-                                    id = 'Glasses',
-                                    title = 'Glasses',
-                                    icon = 'glasses',
-                                    type = 'client',
-                                    event = 'qb-radialmenu:ToggleProps',
-                                    shouldClose = true
-                                }, {
-                                    id = 'Visor',
-                                    title = 'Visor',
-                                    icon = 'hat-cowboy-side',
-                                    type = 'client',
-                                    event = 'qb-radialmenu:ToggleProps',
-                                    shouldClose = true
-                                }, {
-                                    id = 'Mask',
-                                    title = 'Mask',
-                                    icon = 'theater-masks',
-                                    type = 'client',
-                                    event = 'qb-radialmenu:ToggleClothing',
-                                    shouldClose = true
-                                }, {
-                                    id = 'Vest',
-                                    title = 'Vest',
-                                    icon = 'vest',
-                                    type = 'client',
-                                    event = 'qb-radialmenu:ToggleClothing',
-                                    shouldClose = true
-                                }, {
-                                    id = 'Bag',
-                                    title = 'Bag',
-                                    icon = 'shopping-bag',
-                                    type = 'client',
-                                    event = 'qb-radialmenu:ToggleClothing',
-                                    shouldClose = true
-                                }, {
-                                    id = 'Bracelet',
-                                    title = 'Bracelet',
-                                    icon = 'user',
-                                    type = 'client',
-                                    event = 'qb-radialmenu:ToggleProps',
-                                    shouldClose = true
-                                }, {
-                                    id = 'Watch',
-                                    title = 'Watch',
-                                    icon = 'stopwatch',
-                                    type = 'client',
-                                    event = 'qb-radialmenu:ToggleProps',
-                                    shouldClose = true
-                                }, {
-                                    id = 'Gloves',
-                                    title = 'Gloves',
-                                    icon = 'mitten',
-                                    type = 'client',
-                                    event = 'qb-radialmenu:ToggleClothing',
-                                    shouldClose = true
-                                }
-                            }
-                        }
-                    }
-                }
+            }, {
+                id = 'getintrunk',
+                title = 'Get In Trunk',
+                icon = 'car',
+                type = 'client',
+                event = 'qb-trunk:client:GetIn',
+                shouldClose = true
             }
         }
-    }
+    },
+}
 
 
 
 
 Config.JobInteractions = {
-    ["ambulance"] = {
-        {
-            id = 'statuscheck',
-            title = 'Check Health Status',
-            icon = 'heartbeat',
-            type = 'client',
-            event = 'hospital:client:CheckStatus',
-            shouldClose = true
-        },{
-            id = 'revivep',
-            title = 'Revive',
-            icon = 'user-md',
-            type = 'client',
-            event = 'hospital:client:RevivePlayer',
-            shouldClose = true
-        },{
-            id = 'treatwounds',
-            title = 'Heal wounds',
-            icon = 'band-aid',
-            type = 'client',
-            event = 'hospital:client:TreatWounds',
-            shouldClose = true
-        }, {
-            id = 'emergencybutton2',
-            title = 'Emergency button',
-            icon = 'bell',
-            type = 'client',
-            event = 'police:client:SendPoliceEmergencyAlert',
-            shouldClose = true
-        }, {
-            id = 'escort',
-            title = 'Escort',
-            icon = 'user-friends',
-            type = 'client',
-            event = 'police:client:EscortPlayer',
-            shouldClose = true
-        }, {
-            id = 'stretcheroptions',
-            title = 'Stretcher',
-            icon = 'procedures',
-            items = {
-                {
-                    id = 'spawnstretcher',
-                    title = 'Spawn Stretcher',
-                    icon = 'plus',
-                    type = 'client',
-                    event = 'qb-radialmenu:client:TakeStretcher',
-                    shouldClose = false
-                }, {
-                    id = 'despawnstretcher',
-                    title = 'Remove Stretcher',
-                    icon = 'minus',
-                    type = 'client',
-                    event = 'qb-radialmenu:client:RemoveStretcher',
-                    shouldClose = false
-                }
-            }
-        }
-    },
-    ["taxi"] = {
-        {
-            id = 'togglemeter',
-            title = 'Show/Hide Meter',
-            icon = 'eye-slash',
-            type = 'client',
-            event = 'qb-taxi:client:toggleMeter',
-            shouldClose = false
-        }, {
-            id = 'togglemouse',
-            title = 'Start/Stop Meter',
-            icon = 'hourglass-start',
-            type = 'client',
-            event = 'qb-taxi:client:enableMeter',
-            shouldClose = true
-        }, {
-            id = 'npc_mission',
-            title = 'NPC Mission',
-            icon = 'taxi',
-            type = 'client',
-            event = 'qb-taxi:client:DoTaxiNpc',
-            shouldClose = true
-        }
-    },
-    ["tow"] = {
-        {
-            id = 'togglenpc',
-            title = 'Toggle NPC',
-            icon = 'toggle-on',
-            type = 'client',
-            event = 'jobs:client:ToggleNpc',
-            shouldClose = true
-        }, {
-            id = 'towvehicle',
-            title = 'Tow vehicle',
-            icon = 'truck-pickup',
-            type = 'client',
-            event = 'qb-tow:client:TowVehicle',
-            shouldClose = true
-        }
-    },
-    ["mechanic"] = {
-        {
-            id = 'towvehicle',
-            title = 'Tow vehicle',
-            icon = 'truck-pickup',
-            type = 'client',
-            event = 'qb-tow:client:TowVehicle',
-            shouldClose = true
-        }
-    },
     ["police"] = {
         {
             id = 'emergencybutton',
@@ -1120,6 +987,116 @@ Config.JobInteractions = {
             }
         }
     },
+    ["ambulance"] = {
+        {
+            id = 'statuscheck',
+            title = 'Check Health Status',
+            icon = 'heartbeat',
+            type = 'client',
+            event = 'hospital:client:CheckStatus',
+            shouldClose = true
+        },{
+            id = 'revivep',
+            title = 'Revive',
+            icon = 'user-md',
+            type = 'client',
+            event = 'hospital:client:RevivePlayer',
+            shouldClose = true
+        },{
+            id = 'treatwounds',
+            title = 'Heal wounds',
+            icon = 'band-aid',
+            type = 'client',
+            event = 'hospital:client:TreatWounds',
+            shouldClose = true
+        }, {
+            id = 'emergencybutton2',
+            title = 'Emergency button',
+            icon = 'bell',
+            type = 'client',
+            event = 'police:client:SendPoliceEmergencyAlert',
+            shouldClose = true
+        }, {
+            id = 'escort',
+            title = 'Escort',
+            icon = 'user-friends',
+            type = 'client',
+            event = 'police:client:EscortPlayer',
+            shouldClose = true
+        }, {
+            id = 'stretcheroptions',
+            title = 'Stretcher',
+            icon = 'procedures',
+            items = {
+                {
+                    id = 'spawnstretcher',
+                    title = 'Spawn Stretcher',
+                    icon = 'plus',
+                    type = 'client',
+                    event = 'qb-radialmenu:client:TakeStretcher',
+                    shouldClose = false
+                }, {
+                    id = 'despawnstretcher',
+                    title = 'Remove Stretcher',
+                    icon = 'minus',
+                    type = 'client',
+                    event = 'qb-radialmenu:client:RemoveStretcher',
+                    shouldClose = false
+                }
+            }
+        }
+    },
+    ["taxi"] = {
+        {
+            id = 'togglemeter',
+            title = 'Show/Hide Meter',
+            icon = 'eye-slash',
+            type = 'client',
+            event = 'qb-taxi:client:toggleMeter',
+            shouldClose = false
+        }, {
+            id = 'togglemouse',
+            title = 'Start/Stop Meter',
+            icon = 'hourglass-start',
+            type = 'client',
+            event = 'qb-taxi:client:enableMeter',
+            shouldClose = true
+        }, {
+            id = 'npc_mission',
+            title = 'NPC Mission',
+            icon = 'taxi',
+            type = 'client',
+            event = 'qb-taxi:client:DoTaxiNpc',
+            shouldClose = true
+        }
+    },
+    ["tow"] = {
+        {
+            id = 'togglenpc',
+            title = 'Toggle NPC',
+            icon = 'toggle-on',
+            type = 'client',
+            event = 'jobs:client:ToggleNpc',
+            shouldClose = true
+        }, {
+            id = 'towvehicle',
+            title = 'Tow vehicle',
+            icon = 'truck-pickup',
+            type = 'client',
+            event = 'qb-tow:client:TowVehicle',
+            shouldClose = true
+        }
+    },
+    ["mechanic"] = {
+        {
+            id = 'towvehicle',
+            title = 'Tow vehicle',
+            icon = 'truck-pickup',
+            type = 'client',
+            event = 'qb-tow:client:TowVehicle',
+            shouldClose = true
+        }
+    },
     ["hotdog"] = {
         {
             id = 'togglesell',
@@ -1131,6 +1108,7 @@ Config.JobInteractions = {
         }
     }
 }
+
 
 Config.TrunkClasses = {
     [0] = {allowed = true, x = 0.0, y = -1.5, z = 0.0}, -- Coupes
