@@ -9,24 +9,6 @@ local DynamicMenuItems = {}
 local FinalMenuItems = {}
 -- Functions
 
-local function mdt()
-    if QBCore.Functions.GetPlayerData().job.name == "police" then
-        mdtid = exports['qb-radialmenu']:AddOption({
-            id = 'mdt',
-            title = 'Mdt',
-            icon = 'tablet',
-            type = 'command',
-            event = 'mdt',
-            shouldClose = true
-        }, mdtid)
-    else
-        if mdtid ~= nil then
-            exports['qb-radialmenu']:RemoveOption(mdtid)
-            mdtid = nil
-        end
-    end
-end
-
 
 local function deepcopy(orig) -- modified the deep copy function from http://lua-users.org/wiki/CopyTable
     local orig_type = type(orig)
@@ -151,18 +133,18 @@ local function SetupRadialMenu()
         FinalMenuItems = {
             [1] = {
                 id = 'emergencybutton1',
-                title = '10-13A',
+                title = '10-13',
                 icon = 'sad-tear',
                 type = 'client',
-                event = 'ps-dispatch:client:officerdown1',
+                event = 'ps-dispatch:client:officerdown',
                 shouldClose = true,
             },
             [2] = {
                 id = 'emergencybutton2',
-                title = '10-13B',
+                title = '10-14',
                 icon = 'sad-cry',
                 type = 'client',
-                event = 'ps-dispatch:client:officerdown2',
+                event = 'ps-dispatch:client:emsdown',
                 shouldClose = true,
             },
         }
