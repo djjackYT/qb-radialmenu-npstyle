@@ -6,6 +6,8 @@ qb-core: https://github.com/qbcore-framework/qb-core
 
 veh-control: https://github.com/Manvaril/vehcontrol
 
+dpemotes: https://github.com/andristum/dpemotes
+
 # Preview
 https://streamable.com/t0xhus
 
