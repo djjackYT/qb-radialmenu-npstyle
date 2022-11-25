@@ -888,6 +888,13 @@ Config.JobInteractions = {
             event = 'police:client:SeizeDriverLicense',
             shouldClose = true
         }, {
+            id = 'mdt',
+            title = 'MDW',
+            icon = 'tablet',
+            type = 'command',
+            event = 'mdt',
+            shouldClose = true
+        }, {
             id = 'policeinteraction',
             title = 'Police Actions',
             icon = 'tasks',
