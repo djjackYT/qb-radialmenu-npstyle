@@ -1,5 +1,5 @@
 # qb-radialmenu 
-Simple edits of qb-radialmenu to look like nopixels radialmenu. Most of it is just edits but there is some addons to the radialmenu to. Enjoy! (New updates now here!)
+Simple edits of qb-radialmenu to look like nopixels radialmenu. Most of it is just edits but there is some addons to the radialmenu to. Enjoy!
 
 # Dependencies
 qb-core: https://github.com/qbcore-framework/qb-core
